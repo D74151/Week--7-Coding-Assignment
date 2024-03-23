@@ -1,7 +1,7 @@
 let ages = [3,9,23,64,2,8,28,91];
 
 // Remove last element    
-    ages.pop();
+    console.log(ages.pop());
     console.log(ages);
 // Add element to end of string
     ages.push(37);
