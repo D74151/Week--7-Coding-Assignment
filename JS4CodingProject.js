@@ -1,4 +1,4 @@
-let ages = [3,9,23,64,2,8,28,91];
+let ages = [3,9,23,64,2,8,28,93];
 
 // Remove last element    
     console.log(ages.pop());
@@ -7,7 +7,7 @@ let ages = [3,9,23,64,2,8,28,91];
     ages.push(37);
     console.log(ages);
 
-//total of all elements added together
+//total of all ages added together
     var total = 0;
         for(var i = 0; i < ages.length; i++) {
     total+=ages[i];
